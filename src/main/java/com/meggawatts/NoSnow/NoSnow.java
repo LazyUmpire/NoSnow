@@ -11,13 +11,9 @@ public class NoSnow extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new NoSnowBlockListener(), this);
-        PluginDescriptionFile pdfFile = this.getDescription();
-        getServer().getLogger().info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");;
     }
 
     @Override
     public void onDisable() {
-        PluginDescriptionFile pdfFile = this.getDescription();
-        getServer().getLogger().info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is disabled!");
     }
 }
