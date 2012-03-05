@@ -1,0 +1,7 @@
+name: NoSnow
+main: main.java.com.meggawatts.NoSnow.NoSnow
+version: 1.5
+description: Stop that pesky Snow!
+website: http://dev.bukkit.org/server-mods/nosnow/
+authors:
+  - meggawatts
